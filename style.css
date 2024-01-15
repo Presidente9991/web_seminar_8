@@ -1,0 +1,367 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+.center {
+    padding-left: calc(50% - 1140px / 2);
+    padding-right: calc(50% - 1140px / 2);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    background-color: #222;
+}
+
+.header-logo {
+    display: flex;
+    align-items: flex-end;
+    gap: 41px;
+}
+
+.header-menu {
+    display: flex;
+    align-items: center;
+    gap: 33px;
+    background: #222;
+}
+
+.disable {
+    display: flex;
+    align-items: center;
+}
+
+.top-content {
+    display: flex;
+    align-items: center;
+    gap: 43px;
+    background: #F1E4E6;
+    padding-left: calc(50% - 1600px / 2);
+    padding-right: calc(50% - 1600px / 2);
+}
+
+.top-img {
+    width: 50%;
+}
+
+.top-text {
+    display: inline-block;
+    border-left: 12px solid #F16D7F;
+    margin-bottom: 90px;
+    padding-left: 16px;
+}
+
+.top-content-text {
+    color: #222;
+    font-family: Lato;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.top-content-bottom-text {
+    color: #222;
+    font-family: Lato;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.top-pink-text {
+    color: #F16D7F;
+    font-family: Lato;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.offer {
+    padding-top: 65px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 260px 180px;
+    gap: 30px;
+}
+
+.offer-img {
+    position: relative;
+    z-index: -1;
+}
+
+.offer-text {
+    position: absolute;
+    color: #FFF;
+    text-align: center;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.offer-pink-text {
+    color: #F16D7F;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.offer-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(33, 22, 22, 0.70);
+}
+
+.accessories {
+    grid-column: 1/span 3;
+}
+
+.feature-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+    margin-top: 96px;
+}
+
+.feature-item-title {
+    color: #222;
+    font-family: Lato;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.feature-item-text {
+    color: #9F9F9F;
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.catalog {
+    display: grid;
+    grid-template-columns: repeat(3, 360px);
+    gap: 30px;
+    margin-top: 48px;
+}
+
+.fon-img {
+    background: #F7E4E2;
+    display: flex;
+    justify-content: center;
+    padding-top: 9px;
+    padding-bottom: 11px;
+}
+
+.catalog-card {
+    background: #F8F8F8;
+    display: flex;
+    flex-direction: column;
+}
+
+.catalog-card-content {
+    padding: 23px 29px 28px 17px;
+}
+
+.catalog-card-title {
+    color: #000;
+    font-family: Lato;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 16px;
+}
+
+.catalog-card-text {
+    color: #5D5D5D;
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin-bottom: 16px;
+}
+
+.catalog-card-price {
+    color: #F16D7F;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.button-product {
+    display: block;
+    margin: 48px auto 60px auto;
+    background: #FFF;
+    color: #F26376;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border: 1px solid #FF6A6A;
+    padding: 15px 39px;
+}
+
+@media (max-width: 1137px) {
+
+    .center {
+        padding-left: calc(50% - 735px / 2);
+        padding-right: calc(50% - 735px / 2);
+    }
+
+    .top-content {
+        gap: 39px;
+        justify-content: center;
+        padding-left: calc(50% - 768px / 2);
+        padding-right: calc(50% - 768px / 2);
+    }
+
+    .top-text {
+        margin-bottom: 0;
+    }
+
+    .top-content-text {
+        font-size: 44px;
+    }
+
+    .top-content-bottom-text {
+        font-size: 24px;
+    }
+
+    .top-pink-text {
+        font-size: 24px;
+    }
+
+    .offer {
+        grid-template-rows: 167px 116px;
+        gap: 19px;
+    }
+
+    .offer-img {
+        width: 100%;
+    }
+
+    .feature-item {
+        margin-top: 110px;
+        gap: 3.3px;
+    }
+
+    .catalog {
+        grid-template-columns: repeat(2, 360px);
+        gap: 16px;
+        margin-top: 73px;
+    }
+
+    .button-product {
+        margin: 33px auto 70px auto;
+    }
+
+    .fon-img {
+        width: 100%;
+    }
+
+    .fon-woman-text {
+        color: #FFF;
+        font-family: Lato;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+}
+
+@media (max-width: 767px) {
+
+    .center {
+        padding-left: calc(50% - 359px / 2);
+        padding-right: calc(50% - 359px / 2);
+    }
+
+    .header {
+        padding-left: calc(50% - 343px / 2);
+        padding-right: calc(50% - 343px / 2);
+    }
+
+    .disable-on-mobile {
+        display: none;
+    }
+
+    .top-img {
+        display: none;
+    }
+
+    .top-text {
+        margin: 148px 56px 148px 56px;
+    }
+
+    .top-content-text {
+        font-size: 38px;
+    }
+
+    .top-content-bottom-text {
+        font-size: 20px;
+    }
+
+    .top-pink-text {
+        font-size: 20px;
+    }
+
+    .offer {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: 1fr 1fr 1fr 111px;
+        padding-top: 64px;
+    }
+
+    .accessories {
+        grid-column: 1/2;
+    }
+
+    .offer-accessories-img {
+        height: 111px;
+    }
+
+    .feature-item {
+        margin-top: 64px;
+    }
+
+    .catalog {
+        grid-template-columns: repeat(1, 359px);
+        margin-top: 65px;
+    }
+
+    .catalog-card-content {
+        padding: 25px 28.72px 19.95px 18.36px;
+    }
+
+    .catalog-card-title {
+        margin-bottom: 12.62px;
+    }
+
+    .catalog-card-text {
+        margin-bottom: 18px;
+    }
+
+    .button-product {
+        margin: 40.61px 81px 85px auto;
+    }
+}
